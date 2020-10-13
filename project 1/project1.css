@@ -1,0 +1,149 @@
+body{
+    background: url('img/back-image.jpg');
+}
+#content{
+    overflow: hidden;
+    background-color: black;
+    list-style-type: none;
+    padding: 14px 26px;
+    opacity: 0.6;
+    width: 610px;
+    margin: 0px auto;
+}
+li{
+    float: right;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin: 1px 1px;
+    padding: 1px 16px;
+}
+li a:hover{
+    background-color: rgb(59, 49, 49);
+    padding: 10px;
+}
+#fname{
+    padding: 15px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 50px;
+    border: 4px solid black;
+}
+#lname{
+    padding: 15px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 50px;
+    border: 4px solid black;
+    margin-top: 5px;
+}
+#email{
+    padding: 15px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 50px;
+    border: 4px solid black;
+    margin-top: 5px;
+}
+#password{
+    padding: 15px;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 50px;
+    border: 4px solid black;
+    margin-top: 5px;
+}
+#join{
+    background-color: red;
+    border: 2px solid red;
+    margin-left: 51px;
+    width: 165px;
+    opacity: 0.8;
+    color: white;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 166px;
+}
+#sub{
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 2px solid black;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#sub:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+#res{
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 2px solid black;
+    padding-left: 36px;
+    padding-right: 36px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#res:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+#box1{
+    border: 4px solid black;
+    height: 184px;
+    width: 300px;
+    text-align: center;
+    float: right;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    margin-top: -441px;
+    border-radius: 10px;
+}
+#box2{
+    border: 4px solid black;
+    height: 184px;
+    width: 300px;
+    text-align: center;
+    float: right;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    margin-top: -221px;
+    border-radius: 10px;
+}
+#box3{
+    border: 4px solid black;
+    height: 184px;
+    width: 300px;
+    text-align: center;
+    float: right;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    margin-top: -328px;
+    margin-right: 333px;
+    border-radius: 10px;
+}
+#box1:hover{
+    opacity: 100%;
+    border: 2px solid white;
+}
+#box2:hover{
+    opacity: 100%;
+    border: 2px solid white;
+}
+#box3:hover{
+    opacity: 100%;
+    border: 2px solid white;
+}
